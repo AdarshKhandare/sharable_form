@@ -13,7 +13,7 @@ const Layout = ({ children }: { children: ReactNode }) => {
           <UserButton />
         </div>
       </nav>
-      <main>{children}</main>
+      <main className="flex w-full flex-grow mx-auto">{children}</main>
     </div>
   );
 };
