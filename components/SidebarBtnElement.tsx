@@ -24,7 +24,7 @@ const SidebarBtnElement = ({ formElement }: { formElement: FormElement }) => {
       {...draggable.listeners}
       {...draggable.attributes}>
       <Icon className="h-8 w-8 text-primary cursor-grab" />
-      <p className="text-xs">{label}</p>
+      <p className="text-[13px]">{label}</p>
     </Button>
   );
 };
